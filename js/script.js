@@ -6,7 +6,8 @@ const { createApp } = Vue
 createApp({
     data(){
         return{
-            message: 'Hello Vue!'
+            message: 'Hello Vue!',
+            vueImage: 'img/vue-js.png'
         }
     }
-}).mount('#app')
+}).mount('#root');

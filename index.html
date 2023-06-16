@@ -11,6 +11,9 @@
         <script defer src="js/script.js"></script>
     </head>
     <body>
-        <div id="app">{{ message }}</div>
+        <div id="root">
+            <h1 class="text-center mt-4">{{ message }}</h1>
+            <img :src="vueImage">
+        </div>
     </body>
 </html>
